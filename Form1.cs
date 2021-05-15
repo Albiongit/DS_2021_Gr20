@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Base64EncoderDecoder
 {
-    public partial class Form1 : Form
+    public partial class plainTextBox : Form
     {
-        public Form1()
+        public plainTextBox()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void encodeButton_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
