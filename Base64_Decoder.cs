@@ -3,25 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Base64EncoderDecoder
 {
     public class Base64_Decoder
     {
         char[] ciphertext;
-        int length, length2, length3, block6b, pading;
+        int length, length2, length3, block6b, padding;
         public Base64_Decoder(char[] input)
         {
-            pading = 0;
+            padding = 0;
             ciphertext = input;
             length = input.Length;
-
-
-            for (int i = 0; i < 2; i++)
-            {
-                if (input[length - i - 1] == '=')
-                    pading++;
+            try {
+                for (int i = 0; i < 2; i++)
+                {
+                    if (input[length - i - 1] == '=')
+                        padding++;
+                }
             }
+            catch(IndexOutOfRangeException)
+            {
+                MessageBox.Show("Ju lutem kryeni pjesen e enkriptimit.");
+            }
+              
+
+            
 
             block6b = length / 4;
             length2 = block6b * 3;
@@ -64,7 +72,7 @@ namespace Base64EncoderDecoder
                 block2[i * 3 + 2] = b3;
             }
 
-            length3 = length2 - pading;
+            length3 = length2 - padding;
             byte[] plaintext = new byte[length3];
 
             for (int i = 0; i < length3; i++)

@@ -16,7 +16,7 @@ namespace Base64EncoderDecoder
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new plainTextBox());
+            Application.Run(new Form1());
         }
     }
 }
