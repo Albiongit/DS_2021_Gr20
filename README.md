@@ -1,7 +1,7 @@
 # DS_2021_Gr20
 # Projekti ne lenden : Siguria e te Dhenave
 
-##Permbajtja e Projektit
+## Permbajtja e Projektit
 Implementimi i Base64 enkoderit dhe dekoderit
 
 
