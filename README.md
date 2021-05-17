@@ -2,7 +2,7 @@
 # Projekti ne lenden : Siguria e te Dhenave
 
 ## Permbajtja e Projektit
-Implementimi i Base64 enkoderit dhe dekoderit
+Implementimi i Base64 enkoderit dhe dekoderit.
 Programi eshte implementuar si Console App dhe si Desktop App. 
 Gjuha e perdorur gjate implementimit eshte C# (.NET Framework).
 
