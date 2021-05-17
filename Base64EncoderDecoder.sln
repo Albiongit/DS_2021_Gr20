@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64EncoderDecoder", "Base64EncoderDecoder.csproj", "{40AF0D1B-50B0-455C-9F28-E5B1ABBB481A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64EncoderDecoder_Console", "..\Base64EncoderDecoder_Console\Base64EncoderDecoder_Console.csproj", "{EE7CC973-7A2A-4ACB-B43D-F8B9BB312584}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{40AF0D1B-50B0-455C-9F28-E5B1ABBB481A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AF0D1B-50B0-455C-9F28-E5B1ABBB481A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AF0D1B-50B0-455C-9F28-E5B1ABBB481A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7CC973-7A2A-4ACB-B43D-F8B9BB312584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7CC973-7A2A-4ACB-B43D-F8B9BB312584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7CC973-7A2A-4ACB-B43D-F8B9BB312584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7CC973-7A2A-4ACB-B43D-F8B9BB312584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
