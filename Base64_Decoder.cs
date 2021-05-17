@@ -16,6 +16,7 @@ namespace Base64EncoderDecoder
             padding = 0;
             ciphertext = input;
             length = input.Length;
+            
             try {
                 for (int i = 0; i < 2; i++)
                 {
@@ -25,9 +26,8 @@ namespace Base64EncoderDecoder
             }
             catch(IndexOutOfRangeException)
             {
-                MessageBox.Show("Ju lutem kryeni pjesen e enkriptimit.");
-            }
-              
+                MessageBox.Show("Ju lutem kryeni procesin e Enkodimit.");
+            }            
 
             
 
